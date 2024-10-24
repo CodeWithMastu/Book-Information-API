@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "BookRepWithDapper.Controllers.BookInfoController",
+    "Method": "CreateBook",
+    "RelativePath": "api/BookInfo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookInfoDTO",
+        "Type": "BookRepWithDapper.Models.BookInfoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookRepWithDapper.Controllers.BookInfoController",
+    "Method": "DeleteBook",
+    "RelativePath": "api/BookInfo/DeleteBook/{ID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookRepWithDapper.Controllers.BookInfoController",
+    "Method": "GetAllBooks",
+    "RelativePath": "api/BookInfo/GetAllBooks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookRepWithDapper.Controllers.BookInfoController",
+    "Method": "GetBookbyID",
+    "RelativePath": "api/BookInfo/GetBookbyID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookRepWithDapper.Controllers.BookInfoController",
+    "Method": "UpdateBook",
+    "RelativePath": "api/BookInfo/UpdateBook/{ID}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "bookInfoDTO",
+        "Type": "BookRepWithDapper.Models.BookInfoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

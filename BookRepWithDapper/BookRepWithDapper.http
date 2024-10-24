@@ -1,0 +1,6 @@
+@BookRepWithDapper_HostAddress = http://localhost:5171
+
+GET {{BookRepWithDapper_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

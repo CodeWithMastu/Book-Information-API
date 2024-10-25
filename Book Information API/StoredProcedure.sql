@@ -1,4 +1,4 @@
--- STORE PROCEDURES FOR BOOKREP DATABASE
+-- STORE PROCEDURES FOR BOOK INFORMATION DATABASE
 
 -- Add books to the database
 CREATE PROCEDURE AddBook
@@ -60,5 +60,4 @@ BEGIN
 END;
 
 
-/*
-EXEC sp_helptext 'GetAllBooks';*/
+/*EXEC sp_helptext 'GetAllBooks'; (CHECK FOR "GetAllBooks" STORED PROCEDURE IN THE DATABASE */

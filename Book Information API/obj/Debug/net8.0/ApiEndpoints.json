@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "Book_Information_API.Controllers.BookInfoController",
+    "Method": "CreateBookInfo",
+    "RelativePath": "api/BookInfo/Createbook",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookInfoDTO",
+        "Type": "Book_Information_API.Models.BookInfoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Book_Information_API.Controllers.BookInfoController",
+    "Method": "DeleteBook",
+    "RelativePath": "api/BookInfo/DeleteBook",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ID",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Book_Information_API.Controllers.BookInfoController",
+    "Method": "GetAllBooks",
+    "RelativePath": "api/BookInfo/GetAllBooks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Book_Information_API.Controllers.BookInfoController",
+    "Method": "GetBookbyID",
+    "RelativePath": "api/BookInfo/GetBookbyID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ID",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Book_Information_API.Controllers.BookInfoController",
+    "Method": "UpdateBook",
+    "RelativePath": "api/BookInfo/Updatebook",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ID",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "bookInfoDTO",
+        "Type": "Book_Information_API.Models.BookInfoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
